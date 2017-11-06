@@ -37,4 +37,3 @@ test.doAnother(); // 1.2.3
 test.logId(); // #abc
 test.change();
 test.logId(); // #ABC
-

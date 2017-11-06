@@ -89,3 +89,12 @@ for(var i = 0; i < 5; i++) {
   })(i);
 }
 
+function foo(){
+  console.log(a);
+}
+function bar() {
+  var a = 3;
+  foo();
+}
+var a = 2;
+bar(); // 2
